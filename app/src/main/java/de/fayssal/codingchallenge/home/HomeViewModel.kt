@@ -10,7 +10,7 @@ import kotlinx.coroutines.launch
 
 class HomeViewModel() : ViewModel() {
 
-    //ah yes, the reason people usually use the Dependency Injection for
+    //ah yes, the reason people normally use Dependency Injection
     private val levelDataRepository: LevelDataRepository = LevelDataRepository()
 
     private val _latestLevelChanges = MutableStateFlow<ArrayList<Int>>(ArrayList())
